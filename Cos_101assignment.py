@@ -10,26 +10,26 @@ def calculate_pressure():
     force=float(input('Enter force'))
     area=float(input('Enter area'))
     pressure = force*area
-    print(f"Pressure: {pressure} units")
+    print(f"Pressure: {pressure} Pa")
 
 def calculate_speed():
     distance=float(input('Enter distance'))
     time=float(input('Enter time'))
     speed=distance/time
-    print(f"speed: {speed} units")
+    print(f"speed: {speed} m/s")
 
 
 def calculate_density():
     mass=float(input('Enter mass'))
     volume=float(input('Enter volume'))
     density=mass/volume
-    print(f"density: {density} units")
+    print(f"density: {density} kg/m^3")
 
 def calculate_impulse():
     force=float(input('Enter force'))
     time=float(input('Enter time'))
     impulse=force/time
-    print(f"impulse: {impulse} units")
+    print(f"impulse: {impulse} N.s")
 
 def calculate_force():
     mass=float(input('Enter mass'))
